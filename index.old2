@@ -19,8 +19,6 @@
     <meta name="og:image:width" property="og:image:width" content="1024" />
     <meta name="og:image:height" property="og:image:height" content="1024" />
     <link rel="stylesheet" href="static/templates/template3/css/main.min.css" />
-    <link rel="stylesheet" href="/path/to/css/btcdonate.css">
-
 </head>
 
 <body>
@@ -48,30 +46,18 @@
                         </div>
                         <div class="col-sm-6 col-xs-12 fill flex-box right">
                             <div class="app-content">
-                                <!--                                <h2 class="app-name app-field"> </h2>-->
-                                <h1 class="tag-line app-field">Crypton</h1>
+                                <h2 class="app-name app-field">Crypton</h2>
+                                <h1 class="tag-line app-field">Cryptocurrency Prices</h1>
                                 <div class="description app-field">
                                     <p>Crypton is a light and effective app for keeping track of the most popular cryptocurrencies.</p>
-                                    
                                 </div>
                                 <div>
                                     <a class="app-link" id="appleLink" href="https://itunes.apple.com/hk/app/crypton-cryptocurrency-prices/id1143691286?mt=8&amp;uo=4"><img class="app-icon" src="static/templates/template3/images/badgeappstore.png" /></a>
-                                    
-                                    
                                 </div>
-                                
-                                   <a class="footer-link" href="mailto:mgonzalez@cryptonapp.tech">Contact</a>
-                                
                             </div>
-                            <footer class="col-sm-6 col-xs-12 fill flex-box right">
-                                    <div class="app-content">
-                                    <div class="row"><strong style="padding-right:22px;">Donate</strong>
-                                    <a href="bitcoin:1KzTSfqjF2iKCduwz59nv2uqh1W2JsTxZH?amount=0.5&label=Agile%20Stack">
-                                    <img src="http://i.imgur.com/GxbpVGe.png"></a>
-                                    <p>1A3Z2dvNYZ7midqE1enVFaGVXRoHNRgvzC</p><br>
-                                   
-                                </div>
-                                    
+                            <footer class="footer">
+                                <div class="container">
+                                    <div class="row"><strong style="padding-right:22px;">Crypton</strong><a class="footer-link" href="mailto:mgonzalez@cryptonapp.tech">Contact Us</a></div>
                                 </div>
                             </footer>
                         </div>
