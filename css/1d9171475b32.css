@@ -10,7 +10,7 @@
   background: transparent;
 }
 .navbar-logo {
-  background-image: url("/assets/images/logo.png");
+  background-image: href="http://cryptonapp.tech/assets/images/logo.png";
   background-position: center;
   background-repeat: no-repeat;
   float: left;
@@ -19,18 +19,18 @@
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
   .navbar-logo {
-    background-image: url("/assets/robinhood/images/logo@2x.png");
+    background-image: href="http://cryptonapp.tech/assets/images/logo.png";
     background-size: 28px 38px;
   }
 }
 .navbar-inverse .navbar-logo,
 .navbar-logo-white {
-  background-image: url("/assets/robinhood/images/logo-white.png");
+  background-image: href="http://cryptonapp.tech/assets/images/logo.png";
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
   .navbar-inverse .navbar-logo,
   .navbar-logo-white {
-    background-image: url("/assets/robinhood/images/logo-white@2x.png");
+    background-image: href="http://cryptonapp.tech/assets/images/logo.png";
     background-size: 28px 38px;
   }
 }
