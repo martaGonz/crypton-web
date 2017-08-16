@@ -1,0 +1,234 @@
+.navbar {
+  margin-bottom: 0;
+}
+.navbar-overlapping {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.navbar-static-top {
+  background: transparent;
+}
+.navbar-logo {
+  background-image: url("/assets/robinhood/images/logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  float: left;
+  height: 100px;
+  width: 58px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+  .navbar-logo {
+    background-image: url("/assets/robinhood/images/logo@2x.png");
+    background-size: 28px 38px;
+  }
+}
+.navbar-inverse .navbar-logo,
+.navbar-logo-white {
+  background-image: url("/assets/robinhood/images/logo-white.png");
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+  .navbar-inverse .navbar-logo,
+  .navbar-logo-white {
+    background-image: url("/assets/robinhood/images/logo-white@2x.png");
+    background-size: 28px 38px;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-logo {
+    margin-left: -15px;
+  }
+}
+.navbar-collapse {
+  overflow: hidden;
+}
+.navbar-fixed-top {
+  -webkit-transition: top 0.15s;
+  -o-transition: top 0.15s;
+  transition: top 0.15s;
+}
+.navbar-fixed-top.closed {
+  top: -101px;
+}
+.navbar .navbar-nav a {
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-transition: color 0.15s;
+  -o-transition: color 0.15s;
+  transition: color 0.15s;
+}
+.navbar .navbar-nav a.selected {
+  color: #040d14;
+  cursor: default;
+  pointer-events: none;
+}
+.navbar-inverse .navbar-nav a.selected {
+  color: #fff;
+}
+@media (min-width: 768px) {
+  .navbar .navbar-nav li {
+    margin-left: 30px;
+  }
+  .navbar .navbar-nav a {
+    padding-bottom: 6px;
+  }
+  .navbar .navbar-nav a.selected {
+    border-bottom: 3px solid #21ce99;
+  }
+}
+.navbar-form {
+  margin: 28px 0;
+}
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-color: transparent;
+}
+.navbar .navbar-nav .btn,
+.btn-capital-case {
+  font-weight: 900;
+  padding: 12px 12px 8px;
+  text-transform: uppercase;
+}
+.white-text {
+  color: #fff;
+}
+.feature-block {
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+.feature-header {
+  font-size: 26px;
+  font-weight: 100;
+}
+.feature-subtitle {
+  margin-top: 0;
+}
+.btn-condensed {
+  font-size: 16px;
+  padding: 16px 26px 12px;
+}
+@media (min-width: 768px) {
+  .feature-header {
+    font-size: 36px;
+    letter-spacing: -1px;
+  }
+  .feature-block {
+    padding-bottom: 120px;
+    padding-top: 120px;
+  }
+}
+@media (min-width: 992px) {
+  .feature-block {
+    padding-bottom: 150px;
+    padding-top: 150px;
+  }
+  .feature-header {
+    font-size: 48px;
+  }
+}
+.share-wrapper {
+  padding-bottom: 10px;
+}
+@media (min-width: 768px) {
+  .share-wrapper {
+    display: inline-block;
+    margin: 0 5px;
+  }
+}
+.share-button {
+  line-height: 30px;
+  padding: 12px 30px 9px 22px;
+  text-align: center;
+  width: 100%;
+}
+.share-icon {
+  margin-top: -6px;
+}
+#footer {
+  color: #586468;
+  text-align: justify;
+}
+#footer,
+#footer a {
+  font-size: 12px;
+  font-weight: 700;
+}
+#footer hr {
+  border-color: #586468;
+}
+#footer .region-options a {
+  font-size: 16px;
+}
+.footer-buttons {
+  white-space: nowrap;
+}
+@media (min-width: 992px) {
+  .region-options {
+    float: left;
+  }
+  .social-links {
+    float: right;
+  }
+}
+.footer-buttons a {
+  margin: 0 10px;
+}
+@media (min-width: 768px) {
+  .footer-buttons a {
+    margin: 0 15px;
+  }
+  .social-links a {
+    margin: 0 31px;
+  }
+}
+.footer-buttons a:focus,
+.footer-buttons a:hover {
+  text-decoration: none;
+}
+.waitlist-form .form-inner-container {
+  display: inline-block;
+}
+.waitlist-form .parsley-waitlist-errors {
+  text-align: left;
+}
+.waitlist-form .parsley-waitlist-errors .parsley-errors-list {
+  display: none;
+}
+.waitlist-form .parsley-waitlist-errors .parsley-errors-list.filled {
+  color: #f45531;
+  display: block;
+  padding: 0;
+  margin-bottom: 5px;
+}
+.waitlist-form .parsley-waitlist-errors .parsley-errors-list li {
+  display: none;
+}
+.waitlist-form .parsley-waitlist-errors .parsley-errors-list li:last-child {
+  display: block !important;
+}
+.waitlist-form .waitlist-input {
+  height: 50px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .waitlist-form-modal .form-group {
+    display: block;
+    margin-bottom: 15px;
+  }
+}
+.black-bg .feature-header,
+.green-bg .feature-header {
+  color: #fff;
+}
+.black-bg .btn-bordered,
+.green-bg .btn-bordered {
+  border-color: #fff;
+  color: #fff;
+}
+.black-bg .btn-bordered:focus,
+.green-bg .btn-bordered:focus,
+.black-bg .btn-bordered:hover,
+.green-bg .btn-bordered:hover {
+  background: #fff;
+  border-color: #fff;
+  color: #21ce99;
+}
