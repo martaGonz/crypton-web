@@ -10,7 +10,7 @@
   background: transparent;
 }
 .navbar-logo {
-  background-image: href="http://cryptonapp.tech/assets/images/logo.png";
+  background-image: href="assets/images/logo.png";
   background-position: center;
   background-repeat: no-repeat;
   float: left;
@@ -25,12 +25,12 @@
 }
 .navbar-inverse .navbar-logo,
 .navbar-logo-white {
-  background-image: href="http://cryptonapp.tech/assets/images/logo.png";
+  background-image: href="assets/images/logo.png";
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
   .navbar-inverse .navbar-logo,
   .navbar-logo-white {
-    background-image: href="http://cryptonapp.tech/assets/images/logo.png";
+    background-image: href="assets/images/logo.png";
     background-size: 30px 30px;
   }
 }
