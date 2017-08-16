@@ -7,7 +7,17 @@
 }
 .robinhood-tagline {
   margin: 0 0 4.5px;
+    
 }
+
+.header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #555;
+}
+
+
 .header-link {
   font-size: 16px;
   font-weight: 600;
