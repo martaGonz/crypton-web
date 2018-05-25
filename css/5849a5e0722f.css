@@ -251,8 +251,8 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url('http://cryptonapp.tech/assets/fonts/glyphicons-halflings-regular.eot');
-  src: url('http://cryptonapp.tech/assets/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('http://cryptonapp.tech/assets/fonts/glyphicons-halflings-regular.woff') format('woff'), url('http://cryptonapp.tech/assets/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('http://cryptonapp.tech/assets/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('https://cryptonapp.tech/assets/fonts/glyphicons-halflings-regular.eot');
+  src: url('https://cryptonapp.tech/assets/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('https://cryptonapp.tech/assets/fonts/glyphicons-halflings-regular.woff') format('woff'), url('https://cryptonapp.tech/assets/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('https://cryptonapp.tech/assets/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .glyphicon {
   position: relative;
